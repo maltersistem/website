@@ -1,0 +1,163 @@
+/* ===== Scroll Reveal ===== */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity var(--transition-slow),
+    transform var(--transition-slow);
+}
+
+.reveal[data-reveal="left"] {
+  transform: translateX(-40px);
+}
+
+.reveal[data-reveal="right"] {
+  transform: translateX(40px);
+}
+
+.reveal[data-reveal="scale"] {
+  transform: scale(0.9);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* ===== Section title animated underline ===== */
+.section-title {
+  position: relative;
+  padding-bottom: var(--space-xs);
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  margin-top: var(--space-xs);
+  width: 60px;
+  height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+.text-center .section-title::after {
+  margin-inline: auto;
+}
+
+.section:hover .section-title::after,
+.section--alt:hover .section-title::after {
+  width: 120px;
+}
+
+/* ===== About features stagger ===== */
+.about__feature {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.4s ease;
+}
+
+.reveal.active .about__feature {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.reveal.active .about__feature:nth-child(1) { transition-delay: 0.1s; }
+.reveal.active .about__feature:nth-child(2) { transition-delay: 0.2s; }
+.reveal.active .about__feature:nth-child(3) { transition-delay: 0.3s; }
+.reveal.active .about__feature:nth-child(4) { transition-delay: 0.4s; }
+
+/* ===== About image shimmer placeholder ===== */
+.about__image-placeholder::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(232, 132, 26, 0.04) 50%,
+    transparent 100%
+  );
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* ===== Gallery item scale on appear ===== */
+.gallery__item {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.gallery__item:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Footer link hover slide ===== */
+.footer__links a,
+.footer__contact a:not(.footer__social-link) {
+  position: relative;
+  display: inline-block;
+}
+
+.footer__links a::after,
+.footer__contact a:not(.footer__social-link)::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--accent);
+  transition: width var(--transition-base);
+}
+
+.footer__links a:hover::after,
+.footer__contact a:hover::after {
+  width: 100%;
+}
+
+/* ===== Navbar scrolled subtle shadow pulse ===== */
+.navbar.scrolled {
+  animation: navShadow 0.3s ease forwards;
+}
+
+@keyframes navShadow {
+  from { box-shadow: 0 0 0 transparent; }
+  to { box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3); }
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .about__feature {
+    opacity: 1;
+    transform: none;
+  }
+
+  .hero__bg {
+    transform: none !important;
+  }
+
+  .hero::before,
+  .hero::after {
+    animation: none;
+  }
+}

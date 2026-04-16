@@ -1,0 +1,170 @@
+[
+  {
+    "src": "img/gallery/malterisanje-enterijer-stan-01.jpg",
+    "title": "Mašinsko nanošenje maltera",
+    "description": "Proces malterisanja zida u stambenom objektu",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-unutrasnji-zidovi-02.jpg",
+    "title": "Malterisanje unutrašnjih zidova",
+    "description": "Nanošenje maltera na pregradne zidove",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-03.jpg",
+    "title": "Završena soba",
+    "description": "Kompletno malterisanje zidova i plafona",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-04.jpg",
+    "title": "Novoizgrađeni objekat",
+    "description": "Obrada zidova u novogradnji",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-05.jpg",
+    "title": "Soba sa završenim malterom",
+    "description": "Zidovi spremni za finalnu obradu",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-06.jpg",
+    "title": "Prostrana prostorija",
+    "description": "Malterisanje dnevne sobe",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-07.jpg",
+    "title": "Precizna obrada uglova",
+    "description": "Detalj obrade zidova i plafona",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malterisanje-zgrada-zidovi-08.jpg",
+    "title": "Glatke površine",
+    "description": "Ravni zidovi nakon malterisanja",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malter1.jpg",
+    "title": "Malterisanje zidova",
+    "description": "Obrada unutrašnjih zidova",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malter2.jpg",
+    "title": "Nanošenje maltera",
+    "description": "Rad na stambenom objektu",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/malter3.jpg",
+    "title": "Završni sloj maltera",
+    "description": "Priprema površine za obradu",
+    "category": "malterisanje"
+  },
+  {
+    "src": "img/gallery/moleraj1.jpg",
+    "title": "Moleraj prostorije",
+    "description": "Završna obrada zidova",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj2.jpg",
+    "title": "Farbanje zidova",
+    "description": "Nanošenje boje na pripremljenu površinu",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj3.jpg",
+    "title": "Moleraj enterijera",
+    "description": "Obrada unutrašnjih zidova bojom",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj4.jpg",
+    "title": "Završni moleraj",
+    "description": "Finalna obrada prostorije",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj5.jpg",
+    "title": "Farbanje stana",
+    "description": "Kompletna obrada stambenog prostora",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj6.jpg",
+    "title": "Moleraj sobe",
+    "description": "Profesionalno farbanje zidova",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj7.jpg",
+    "title": "Detalj moleraja",
+    "description": "Precizna obrada površina",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj8.jpg",
+    "title": "Moleraj hodnika",
+    "description": "Obrada zajedničkih prostorija",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/moleraj9.jpg",
+    "title": "Završen moleraj",
+    "description": "Gotova prostorija spremna za useljenje",
+    "category": "moleraj"
+  },
+  {
+    "src": "img/gallery/grubi_radovi1.jpg",
+    "title": "Priprema krova — letve i folija",
+    "description": "Postavljanje krovnih letvi i hidroizolacione folije",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi2.jpg",
+    "title": "Krovna konstrukcija",
+    "description": "Završeno postavljanje letvi spremnih za crep",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi3.jpg",
+    "title": "Drvena krovna konstrukcija",
+    "description": "Izrada krovne konstrukcije od drvene građe",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi4.jpg",
+    "title": "Konstrukcija u izgradnji",
+    "description": "Postavljanje rogova i krovnih nosača",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi5.jpg",
+    "title": "Betonska temeljna ploča",
+    "description": "Završena betonska ploča sa armaturom",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi6.jpg",
+    "title": "Temelji objekta",
+    "description": "Izlivena temeljna ploča spremna za zidanje",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi7.jpg",
+    "title": "Postavljen crep",
+    "description": "Završen krov sa crepom i krovnim prozorom",
+    "category": "grubi"
+  },
+  {
+    "src": "img/gallery/grubi_radovi8.jpg",
+    "title": "Završen krov",
+    "description": "Postavljen crep i izrađena dimnjačka kapa",
+    "category": "grubi"
+  }
+]
