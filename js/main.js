@@ -433,7 +433,7 @@
         renderCarousel('all');
       })
       .catch(function() {
-        if (galleryGrid) galleryGrid.innerHTML = '<div class="gallery__empty"><p>Galerija je u pripremi.</p></div>';
+        if (carouselTrack) carouselTrack.innerHTML = '<div class="gallery__empty"><p>Galerija je u pripremi.</p></div>';
       });
 
   } catch (e) {
